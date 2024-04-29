@@ -15,7 +15,7 @@ namespace MvcCoreDeployment.Controllers
 
         public IActionResult Index()
         {
-            ViewData["Saludo"] = " Nuestra app Deployment en Github";
+            ViewData["Saludo"] = " Nuestra app Deployment desde Github";
             Random ran = new Random();
             List<int> numeros = new List<int>();
 
